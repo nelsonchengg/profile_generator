@@ -21,7 +21,7 @@ rl.question('What\'s your name? ', (answer1) => {
         result += `loves ${answer2.trim()}`;
         result += ` while ${answer3.trim()},`;
         result += ` and devouring ${answer5.trim()} for `;
-        result += `${answer4.trim()};`;
+        result += `${answer4.trim()}.`;
         console.log(result);
         rl.close();
         });
